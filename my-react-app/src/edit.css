@@ -1,0 +1,14 @@
+.ID-Card{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: blue;
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    max-width: 200px;
+    display: flexbox;
+    font-family: Arial, sans-serif;
+}
+.ID-Card p{
+    margin: 0px;
+}
