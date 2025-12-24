@@ -12,8 +12,9 @@ function List(){
 
     const listItems = fruits.map(fruits => <li key={fruits.id}>{fruits.name}: &nbsp; {fruits.calories}cal</li>); //&nbsp; is a space creater
 
-    return(<>
-            <ul className="edit">{listItems}</ul>
+    return(
+           <>
+            <ul>{listItems}</ul>
            </>
     );
 
